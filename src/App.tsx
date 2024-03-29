@@ -1,8 +1,10 @@
 import React, {useEffect} from 'react';
 import './App.css';
 import {useAppDispatch, useAppSelector} from "./hooks/redux";
-import {userSlice} from "./store/reducers/UserSlice";
 import {fetchUsers} from "./store/reducers/ActionCreators";
+import PostContainer from "./components/PostContainer";
+import PostContainer2 from "./components/PostContainer2";
+import SimpleCount from "./components/simpleCount";
 
 function App() {
     const {users,error,isLoading, } = useAppSelector(state => state.userReducer)
@@ -26,6 +28,15 @@ function App() {
                     </div>
                 )
             )}
+        </div>
+        <div>
+            {/*<div className="flex">*/}
+            {/*    <PostContainer />*/}
+            {/*    <PostContainer2 />*/}
+            {/*</div>*/}
+            <div>
+                <SimpleCount />
+            </div>
         </div>
     </div>
   );

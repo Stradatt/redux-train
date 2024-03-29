@@ -9,6 +9,18 @@
 }
 
 .flex {
-  display: inline-flex;
-  gap: 4px;
+  display: flex;
+  gap: 20px;
+}
+
+.post-list {
+  display: block;
+}
+
+.post-item {
+  padding: 5px;
+  border: 1px solid gray;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
 }

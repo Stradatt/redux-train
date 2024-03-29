@@ -9,7 +9,7 @@ import {createAsyncThunk} from "@reduxjs/toolkit";
 //     return String(error)
 // }
 //
-// //реализация как на ванильном редакс
+//реализация запроса на ванильном редакс
 // export const fetchUsers = () => async (dispatch: AppDicpatch)=> {
 //     try {
 //         dispatch(userSlice.actions.usersFetching())
@@ -20,8 +20,7 @@ import {createAsyncThunk} from "@reduxjs/toolkit";
 //     }
 // }
 
-// рекомендованная реализация на RTK
-//
+// рекомендованная реализация запроса на RTK
 
 export const fetchUsers = createAsyncThunk(
     'user/fetchAll',

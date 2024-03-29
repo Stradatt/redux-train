@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "body": "This project uses the Fair Source License. Note: Only organizations with 3+ users need to contribute a small amount through sponsorship sponsor for usage. Th"
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "body": "This project uses the Fair Source License. Note: Only organizations with 3+ users need to contribute a small amount through sponsorship sponsor for usage. Th,age. This license helps keep the project sustainable and healthy, benefiting everyone."
+    },
+    {
+      "id": "3",
+      "title": "a title",
+      "body": "This project uses the Fair Source License. Note: Only organizations with 3+ users need to contribute a small amount through sponsorship sponsor for usage. Th,age. This license helps keep the project sustainable and healthy, benefiting everyone."
+    },
+    {
+      "id": "4",
+      "title": "another title",
+      "body": "This project uses the Fair Source License. Note: Only organizations with 3+ users need to contribute a small amount through sponsorship sponsor for usage. Th"
+    },
+    {
+      "id": "5",
+      "title": "a title",
+      "body": "This project uses the Fair Source License. Note: Only organizations with 3+ users need to contribute a small amount through sponsorship sponsor for usage. Th"
+    },
+    {
+      "id": "7",
+      "title": "a title",
+      "body": "This project uses the Fair Source License. Note: Only organizations with 3+ users need to contribute a small amount through sponsorship sponsor for usage. Th"
+    },
+    {
+      "id": "8",
+      "title": "another title",
+      "body": "This project uses the Fair Source License. Note: Only organizations with 3+ users need to contribute a small amount through sponsorship sponsor for usage. Th"
+    },
+    {
+      "id": "fd98",
+      "title": "Заголовок",
+      "body": "Текст поста, текст постатеке"
+    },
+    {
+      "id": "e822",
+      "title": "ffhfhfhf",
+      "body": "выпавполддо"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
